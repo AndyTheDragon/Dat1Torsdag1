@@ -1,14 +1,17 @@
-int input = 20;
+int input = -20;
 int x= input;
 while (abs(x-0)!=0) {
     if (x==input/2) {
-      println("HALF!");
+      print("HALF!, ");
     } 
     else if (x==6) {
-      println("six");
+      print("six, ");
+    }
+    else if (x==1 || x==-1) {
+      print(x);
     }
     else {
-      println(x);
+      print(x + ", ");
     }
 
   if (x-0 > 0 ) {
